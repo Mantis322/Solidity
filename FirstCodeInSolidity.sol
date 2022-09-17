@@ -3,8 +3,8 @@ pragma solidity ^0.8.17;
 // SPDX-License-Identifier: MIT
 
 contract FirstCode{
-    address owner;
-    uint balance;
+    address public owner;
+    uint public balance;
 
     constructor(){
         owner = msg.sender;
